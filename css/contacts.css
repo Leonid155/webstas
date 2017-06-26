@@ -1,0 +1,118 @@
+
+.mainContactInfo{
+	font: 22px;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border: 2px dotted #A09D9D;
+	border-radius: 3px;
+	
+}
+
+.mainContactInfo a{
+	margin: 0;
+	padding:5px;
+	color:#342020;
+	text-decoration: underline; 
+}
+
+.mainContactInfo a:hover{
+	color:#F5B559;
+}
+
+
+span{
+	font-weight: bold;
+}
+
+
+.phoneContacts, .otherContacts{
+	width:50%;
+	margin:5px 0  15px 0;
+	
+}
+
+
+.otherContacts p{
+	text-align: left;
+	padding-left: 20px;
+
+}
+.phoneContacts p{
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+.phoneContacts p:first-child{
+	padding-right: 95px;
+}
+
+
+ #contactForm{
+ 	margin: 0 auto;
+ 	width: 75%;
+ 	color: #E1D9D9;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	background: url(../images/bgpic3.png);
+ 	padding: 10px 10px 7px 15px;
+ 	border-radius: 8px;
+ 	margin-bottom: 80px
+ }
+
+  input, textarea{
+	width:98%;
+	margin-bottom: 8px;
+	background: url(../images/bgpic14.png);         
+   	border:none;
+               
+}
+
+input{
+	height: 30px;
+}
+
+
+
+.formButton{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 90px;
+	height: 40px;
+	border: 1px solid #525252;
+	border-radius: 2px;
+	background: url(../images/bgpic10.png);
+	color: #E1D9D9;
+	margin-top: 5px;
+}
+
+
+.formButton:hover{
+	background: url(../images/bgpic3.png);
+	color: #E1D9D9;
+
+}
+
+
+
+
+@media screen  and (max-width: 640px) {
+	
+ .mainContactInfo, #contactForm{
+	width: 90%;
+}
+
+.phoneContacts, .otherContacts{
+	width: 95%;	
+}
+
+.otherContacts p, .phoneContacts p{
+	text-align: left;
+	padding:0  0 0 40px;
+
+} 
+}
+
